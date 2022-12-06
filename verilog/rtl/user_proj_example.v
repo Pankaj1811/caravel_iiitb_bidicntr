@@ -71,7 +71,7 @@ module user_proj_example #(
     wire clk;
     wire rst;
     wire[7:0] count;
-    wire c;
+    wire ctrl;
 
     wire [`MPRJ_IO_PADS-1:0] io_in;
     wire [`MPRJ_IO_PADS-1:0] io_out;
@@ -126,7 +126,7 @@ module user_proj_example #(
         .la_input(la_data_in[63:32]),
         .count(count)
     );*/
-    iiitb_bidicntr(count,clk,ctrl,reset);
+    iiitb_bidicntr dut(count,clk,ctrl,reset);
 
 endmodule
 module iiitb_bidicntr(count,clk,ctrl,reset);
