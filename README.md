@@ -7,6 +7,4 @@
 
 ## Please fill in your project documentation in this README.md file 
 
-Refer to [README](docs/source/index.rst#section-quickstart) for a quickstart of how to use caravel_user_project
-
-Refer to [README](docs/source/index.rst) for this sample project documentation. 
+This project is about 8 bit bidirectional counter which s controlled by control signal. As name say this design countes in both the direction and one of the fine use is to keep record of something inside a place. 
