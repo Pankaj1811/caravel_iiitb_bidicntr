@@ -4,3 +4,4 @@ This project is about 8 bit bidirectional counter which s controlled by control 
 
 ## Tapeout Screenshot
 <img src="images/tapeout.png">
+</br>
